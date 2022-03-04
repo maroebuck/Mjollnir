@@ -1,0 +1,21 @@
+<form id="signup-form">
+  <label>
+    Email
+    <input id="email" type="text" placeholder="Email address" value="test@example.com" required />
+  </label>
+
+  <button type="button" (click)="create()">
+    Register
+  </button>
+</form>
+<form id="payment-form">
+  <div id="payment-element">
+    <!-- Elements will create form elements here -->
+  </div>
+  <button type="submit" id="submit">Subscribe</button>
+  <div id="error-message">
+    <!-- Display error message to your customers here -->
+  </div>
+</form>
+<button (click)="status()">Status</button>
+<div id="message"></div>
